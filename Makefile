@@ -6,7 +6,7 @@
 #    By: flima <flima@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/10/12 21:12:39 by flima             #+#    #+#              #
-#    Updated: 2024/10/14 19:00:08 by flima            ###   ########.fr        #
+#    Updated: 2024/10/16 18:11:24 by flima            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,7 +16,7 @@ CC= cc
 
 CFLAGS = -Wall -Wextra -Werror
 
-SRCS = $(shell find . -name "*.c")
+SRCS = $(shell find . -name "*.c" ! -name "*_bonus.c")
 
 OBJS = $(SRCS:.c=.o)
 

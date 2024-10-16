@@ -6,7 +6,7 @@
 /*   By: flima <flima@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/12 19:06:44 by flima             #+#    #+#             */
-/*   Updated: 2024/10/14 20:16:18 by flima            ###   ########.fr       */
+/*   Updated: 2024/10/16 19:15:23 by flima            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ static char	**ft_free(char **array)
 		i++;
 	}
 	free(array);
-	return (array);
+	return (NULL);
 }
 
 static char	**ft_makearray(char **array, char const *s, char c)
@@ -79,14 +79,15 @@ static size_t	ft_countchr(char const *s, char c)
 char	**ft_split(char const *s, char c)
 {
 	char	**array_strs;
+	char	**temp;
 
 	if (s == NULL)
 		return (NULL);
 	array_strs = (char **)malloc((ft_countchr(s, c) + 1) * sizeof(char *));
 	if (!array_strs)
 		return (NULL);
-	array_strs = ft_makearray(array_strs, s, c);
-	if (array_strs == NULL)
+	temp = ft_makearray(array_strs, s, c);
+	if (temp == NULL)
 		return (NULL);
 	return (array_strs);
 }

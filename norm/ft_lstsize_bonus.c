@@ -1,39 +1,45 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_memcpy.c                                        :+:      :+:    :+:   */
+/*   ft_lstsize_bonus.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: flima <flima@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/10/09 09:47:20 by flima             #+#    #+#             */
-/*   Updated: 2024/10/16 20:22:31 by flima            ###   ########.fr       */
+/*   Created: 2024/10/15 20:51:53 by flima             #+#    #+#             */
+/*   Updated: 2024/10/16 19:34:45 by flima            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "libft_bonus.h"
 
-void	*ft_memcpy(void *dest, const void *src, size_t nbytes)
+int	ft_lstsize(t_list *lst)
 {
-	size_t	i;
+	t_list	*current;
+	int		i;
 
-	if (dest == NULL && src == NULL)
-		return (NULL);
 	i = 0;
-	while (i < nbytes)
+	current = lst;
+	while (current != NULL)
 	{
-		((unsigned char *)dest)[i] = ((unsigned char *)src)[i];
 		i++;
+		current = current->next;
 	}
-	return (dest);
+	return (i);
 }
-
 // int	main(void)
 // {
-// 	// char	src[]= "morning jovem jjjjjjjaaaaaaaaaaaaaaaaaaaaaaaaaajjjjjjjjjjj";
-// 	char	dest[20];
-
-// 	ft_memcpy(dest, NULL, 0);
-// 	dest[19] = '\0';
-// 	printf("%s\n", dest);
+// 	t_list	*head;
+// 	t_list	*new;
+// 	int		n1 = 10;
+// 	int		n2 = 20;
+// 	int		n3 = 30;
+// 	int		size;
+// 	head = NULL;
+// 	head = ft_lstnew(&n1);
+// 	head->next = ft_lstnew(&n2);
+// 	new = ft_lstnew(&n3);
+// 	ft_lstadd_front(&head, new);
+// 	size = ft_lstsize(head);
+// 	printf("%d", size);
 // 	return (0);
 // }
