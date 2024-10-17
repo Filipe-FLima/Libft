@@ -6,7 +6,7 @@
 /*   By: flima <flima@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/11 17:46:28 by flima             #+#    #+#             */
-/*   Updated: 2024/10/16 21:07:17 by flima            ###   ########.fr       */
+/*   Updated: 2024/10/17 16:48:43 by flima            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,8 +16,6 @@ void	*ft_calloc(size_t len, size_t size)
 {
 	void	*ptr;
 
-	if (len == 0 || size == 0)
-		return (malloc(1));
 	ptr = malloc(len * size);
 	if (ptr == NULL)
 		return (NULL);
