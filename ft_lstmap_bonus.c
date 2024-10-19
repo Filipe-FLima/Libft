@@ -6,7 +6,7 @@
 /*   By: flima <flima@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/18 10:03:01 by flima             #+#    #+#             */
-/*   Updated: 2024/10/18 12:15:24 by flima            ###   ########.fr       */
+/*   Updated: 2024/10/19 14:17:54 by flima            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,9 +45,9 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 
 //     new_cont = malloc(sizeof(int));
 //     if (new_cont == NULL)
-//         return (NULL); // Retorna NULL em caso de falha de alocação
+//         return (NULL); 
 
-//     *new_cont = *(int *)content + 10; // Adiciona 10 ao valor original
+//     *new_cont = *(int *)content + 10;
 //     return (new_cont);
 // }
 
@@ -63,7 +63,6 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 //     t_list *new_h;
 //     int size;
 
-//     // Alocação de memória para os valores
 //     int *n1 = malloc(sizeof(int));
 //     int *n2 = malloc(sizeof(int));
 //     int *n3 = malloc(sizeof(int));
@@ -71,11 +70,10 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 //     int *n5 = malloc(sizeof(int));
 //     int *n6 = malloc(sizeof(int));
 
-//     // Verificando se a alocação foi bem-sucedida
 //     if (!n1 || !n2 || !n3 || !n4 || !n5 || !n6) 
 //     {
 //         fprintf(stderr, "Memory allocation failed\n");
-//         return 1; // Saída do programa em caso de erro
+//         return 1;
 //     }
 
 //     *n1 = 10;
@@ -85,7 +83,7 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 //     *n5 = 50;
 //     *n6 = 60;
 
-//     // Criando a lista original
+//
 //     head = ft_lstnew(n1);
 //     ft_lstadd_back(&head, ft_lstnew(n2));
 //     ft_lstadd_back(&head, ft_lstnew(n3));
@@ -101,7 +99,7 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 //     new_h = ft_lstmap(head, add_ten, free_node_test);
 
 //     // Imprimindo a nova lista
-//		printf("New list: ");
+// 		printf("New list: ");
 //     while (new_h != NULL)
 //     {
 //         printf("%d -> ", *(int *)new_h->content);

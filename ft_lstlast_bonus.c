@@ -6,7 +6,7 @@
 /*   By: flima <flima@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/15 21:13:01 by flima             #+#    #+#             */
-/*   Updated: 2024/10/18 12:15:20 by flima            ###   ########.fr       */
+/*   Updated: 2024/10/19 12:43:07 by flima            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,8 @@ t_list	*ft_lstlast(t_list	*lst)
 {
 	t_list	*lastlst;
 
+	if (lst == NULL)
+		return (NULL);
 	while (lst != NULL)
 	{
 		lastlst = lst;

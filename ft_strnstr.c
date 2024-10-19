@@ -6,7 +6,7 @@
 /*   By: flima <flima@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/10 16:12:35 by flima             #+#    #+#             */
-/*   Updated: 2024/10/17 21:18:51 by flima            ###   ########.fr       */
+/*   Updated: 2024/10/19 14:43:40 by flima            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,8 +21,6 @@ char	*ft_strnstr(const char *big, const char *little, size_t n)
 	if (*little == '\0')
 		return ((char *)big);
 	len_little = ft_strlen(little);
-	if (n == 0 || len_little > n)
-		return (NULL);
 	large = (char *)big;
 	i = 0;
 	while (large[i] && (i + len_little) <= n)

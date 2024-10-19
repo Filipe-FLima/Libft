@@ -6,7 +6,7 @@
 /*   By: flima <flima@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/15 21:35:01 by flima             #+#    #+#             */
-/*   Updated: 2024/10/18 12:14:59 by flima            ###   ########.fr       */
+/*   Updated: 2024/10/19 14:05:36 by flima            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,29 +14,35 @@
 
 void	ft_lstadd_back(t_list **lst, t_list *new)
 {
-	t_list	*lastnode;
+	t_list	*temp;
 
-	if (new == NULL)
-		return ;
-	lastnode = ft_lstlast(*lst);
-	lastnode->next = new;
+	if (*lst == NULL)
+	{
+		*lst = new;
+	}
+	else
+	{
+		temp = *lst;
+		while (temp->next != NULL)
+		{
+			temp = temp->next;
+		}
+		temp->next = new;
+	}
 }
 // int	main(void)
 // {
 // 	t_list	*head;
-// 	t_list	*new;
 // 	int		n1 = 10;
 // 	int		n2 = 20;
 // 	int		n3 = 30;
 // 	head = NULL;
-// 	head = ft_lstnew(&n1);
-// 	head->next = ft_lstnew(&n2);
-// 	new = ft_lstnew(&n3);
-// 	ft_lstadd_back(&head, new);
-// 	t_list *current = head;
-// 	while (current != NULL)
+// 	ft_lstadd_back(&head, ft_lstnew(&n1));
+// 	ft_lstadd_back(&head, ft_lstnew(&n2));
+// 	ft_lstadd_back(&head, ft_lstnew(&n3));
+// 	while (head != NULL)
 // 	{
-// 		printf("%d -> ", *(int *) current->content);
-// 		current = current->next;
+// 		printf("%d -> ", *(int *) head->content);
+// 		head = head->next;
 // 	}
 // }
