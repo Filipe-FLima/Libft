@@ -6,7 +6,7 @@
 /*   By: flima <flima@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/10 15:53:37 by flima             #+#    #+#             */
-/*   Updated: 2024/10/14 14:39:28 by flima            ###   ########.fr       */
+/*   Updated: 2024/10/19 15:44:27 by flima            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 // int	main(void)
 // {
 // 	char str1[] = "hhlLll";
-// 	char str2[] = "ghlLm";
+// 	char str2[] = "mhlLm";
 // 	int n;
 // 	int	result;
 // 	n = 6;

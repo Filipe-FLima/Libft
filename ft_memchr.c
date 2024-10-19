@@ -6,7 +6,7 @@
 /*   By: flima <flima@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/10 15:11:23 by flima             #+#    #+#             */
-/*   Updated: 2024/10/14 14:39:04 by flima            ###   ########.fr       */
+/*   Updated: 2024/10/19 15:42:43 by flima            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,7 @@ void	*ft_memchr(const void *s, int c, size_t n)
 // 	char str[] = "torta";
 // 	char *ptr;
 
-// 	ptr = ft_memchr(str, 'b', 7);
+// 	ptr = ft_memchr(str, 'r', 7);
 // 	printf("%s", ptr);
 // 	return (0);
-//}
+// }

@@ -6,7 +6,7 @@
 /*   By: flima <flima@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/09 09:47:28 by flima             #+#    #+#             */
-/*   Updated: 2024/10/14 14:44:43 by flima            ###   ########.fr       */
+/*   Updated: 2024/10/19 16:00:47 by flima            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,7 @@ void	*ft_memset(void *s, int c, size_t len)
 // 	int len = 9;
 // 	char buffer[len];
 
-// 	char *ptr = ft_memset(buffer,'5', sizeof(buffer));
+// 	char *ptr = ft_memset(buffer,'7', sizeof(buffer));
 // 	for (int i = 0; i < len; i++) 
 // 	{
 //         printf("%c ", ptr[i]);

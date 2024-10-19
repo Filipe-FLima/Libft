@@ -6,7 +6,7 @@
 /*   By: flima <flima@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/09 12:34:06 by flima             #+#    #+#             */
-/*   Updated: 2024/10/14 14:58:08 by flima            ###   ########.fr       */
+/*   Updated: 2024/10/19 17:07:51 by flima            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,7 +36,7 @@ char	*ft_strrchr(const char *s, int c)
 // 	char	str[] = "hello World";
 // 	char	*ptr;
 
-// 	ptr = ft_strrchr(str, 'E');
+// 	ptr = ft_strrchr(str, 'e');
 // 	printf("%s", ptr);
 // 	return (0);
 // }

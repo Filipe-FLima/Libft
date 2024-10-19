@@ -6,7 +6,7 @@
 /*   By: flima <flima@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/18 10:03:01 by flima             #+#    #+#             */
-/*   Updated: 2024/10/19 14:17:54 by flima            ###   ########.fr       */
+/*   Updated: 2024/10/19 18:29:45 by flima            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -83,7 +83,6 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 //     *n5 = 50;
 //     *n6 = 60;
 
-//
 //     head = ft_lstnew(n1);
 //     ft_lstadd_back(&head, ft_lstnew(n2));
 //     ft_lstadd_back(&head, ft_lstnew(n3));
@@ -91,27 +90,20 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 //     ft_lstadd_back(&head, ft_lstnew(n5));
 //     ft_lstadd_back(&head, ft_lstnew(n6));
 
-//     // Calculando e imprimindo o tamanho da lista original
 //     size = ft_lstsize(head); 
 //     printf("Size before: %d\n", size);
 
-//     // Mapeando a lista para criar uma nova lista
 //     new_h = ft_lstmap(head, add_ten, free_node_test);
 
-//     // Imprimindo a nova lista
-// 		printf("New list: ");
+// 	printf("New list: ");
 //     while (new_h != NULL)
 //     {
 //         printf("%d -> ", *(int *)new_h->content);
 //         new_h = new_h->next;
 //     }
-//     printf("NULL\n"); // Indica o final da lista
+//     printf("NULL\n");
 
-//     // Liberando a memória da lista original
 //     ft_lstclear(&head, free_node_test);
-
-//     // Liberando a memória da nova lista
 //     ft_lstclear(&new_h, free_node_test);
-
 //     return 0;
 // }

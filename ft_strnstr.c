@@ -6,7 +6,7 @@
 /*   By: flima <flima@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/10 16:12:35 by flima             #+#    #+#             */
-/*   Updated: 2024/10/19 14:43:40 by flima            ###   ########.fr       */
+/*   Updated: 2024/10/19 17:00:13 by flima            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,11 +34,11 @@ char	*ft_strnstr(const char *big, const char *little, size_t n)
 
 // int	main(void)
 // {
-// 	// char	str[] = "Hello odam 42!";
-// 	// char	to_find[] = "Codam";
+// 	char	str[] = "Hello Codam!";
+// 	char	to_find[] = "Codam";
 // 	char	*result;
 
-// 	result = ft_strnstr(((void*)0), "fake", 3);
+// 	result = ft_strnstr(str, to_find, 11);
 // 	if (result)
 // 	{
 // 		printf("Substring found: %s", result);

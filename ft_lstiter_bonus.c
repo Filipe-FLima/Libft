@@ -6,7 +6,7 @@
 /*   By: flima <flima@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/18 09:40:29 by flima             #+#    #+#             */
-/*   Updated: 2024/10/18 12:15:17 by flima            ###   ########.fr       */
+/*   Updated: 2024/10/19 18:29:20 by flima            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,6 +20,7 @@ void	ft_lstiter(t_list *lst, void (*f)(void *))
 		lst = lst->next;
 	}
 }
+
 // void	print_node(void *content)
 // {
 // 	if (content != NULL)
@@ -32,7 +33,7 @@ void	ft_lstiter(t_list *lst, void (*f)(void *))
 //     t_list *head = NULL; 
 //     // t_list *lastlst;
 //     // t_list *hold;
-//     int size;
+//     // int size;
 
 //     int *n1 = malloc(sizeof(int));
 //     int *n2 = malloc(sizeof(int));
@@ -54,9 +55,9 @@ void	ft_lstiter(t_list *lst, void (*f)(void *))
 // 	ft_lstadd_back(&head, ft_lstnew(n4));
 // 	ft_lstadd_back(&head, ft_lstnew(n5));
 // 	ft_lstadd_back(&head, ft_lstnew(n6));
-//     size = ft_lstsize(head); 
-//     printf("size before: %d\n", size);
-//     ft_lstiter(head->next->next, print_node);
+//     // size = ft_lstsize(head); 
+//     // printf("size before: %d\n", size);
+//     ft_lstiter(head, print_node);
 //     // size = ft_lstsize(head);
 // 	// printf("size after: %d\n", size);
 //     return 0;

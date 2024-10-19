@@ -6,7 +6,7 @@
 /*   By: flima <flima@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/11 18:39:10 by flima             #+#    #+#             */
-/*   Updated: 2024/10/14 14:49:20 by flima            ###   ########.fr       */
+/*   Updated: 2024/10/19 16:11:18 by flima            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ char	*ft_strdup(const char *s)
 }
 // int	main(void)
 // {
-// 	char	str[] = " 54d654651";
+// 	char	str[] = " 54d654651fhdh";
 // 	char	*newstr;
 // 	newstr = ft_strdup(str);
 // 	printf ("%s", newstr);

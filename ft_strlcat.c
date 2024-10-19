@@ -6,7 +6,7 @@
 /*   By: flima <flima@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/09 09:52:07 by flima             #+#    #+#             */
-/*   Updated: 2024/10/14 16:19:19 by flima            ###   ########.fr       */
+/*   Updated: 2024/10/19 16:47:20 by flima            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,12 +35,13 @@ size_t	ft_strlcat(char *dest, const char *src, size_t size)
 	return (dst_len + src_len);
 }
 
-// // int main(void)
-// // {
-// //     // char dest[20] = "Hello, ";
-// //     // const char* src = "World!";
-// // 	size_t	len;
-// //     len = ft_strlcat("pqrstuvwxyz", "abcd", 0);
-// //     printf("%zu", len);
-// //     return (0);
+// int main(void)
+// {
+//     char dest[20] = "Hello, ";
+//     const char* src = "4444";
+// 	size_t	len;
+//     len = ft_strlcat(dest, src, 12);
+//     printf("%zu\n", len);
+// 	printf("%s", dest);
+//     return (0);
 // }

@@ -6,7 +6,7 @@
 /*   By: flima <flima@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/09 09:47:24 by flima             #+#    #+#             */
-/*   Updated: 2024/10/14 17:58:42 by flima            ###   ########.fr       */
+/*   Updated: 2024/10/19 15:51:56 by flima            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,13 +34,13 @@ void	*ft_memmove(void *dest, const void *src, size_t len)
 // int	main(void)
 // {
 // 	char	src[] = "tester teddd";
-// 	char	*src1 = NULL;
+// 	char	*src1 = "nomo tdrd";
 // 	char	src2[]= "morni jovem";
 // 	char	src3[]= "night tttttttttttttttt";
 
-// 	ft_memmove(src, src1, 7);
+// 	ft_memmove(src, src1, 5);
 // 	printf("%s\n", src);
-// 	ft_memmove(src2, src3, 11);
+// 	ft_memmove(src2, src3, 5);
 // 	printf("%s\n", src2);
 // 	return (0);
 // }

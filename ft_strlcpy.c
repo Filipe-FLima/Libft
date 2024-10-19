@@ -6,7 +6,7 @@
 /*   By: flima <flima@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/09 09:47:31 by flima             #+#    #+#             */
-/*   Updated: 2024/10/16 20:43:29 by flima            ###   ########.fr       */
+/*   Updated: 2024/10/19 16:51:04 by flima            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,13 +35,10 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)
 
 // int	main(void)
 // {
-// 	// char	src[] = "todo diA DI";
-// 	// char	dest[0];
+// 	char	src[] = "todo diA DIaaaaaaaB";
+// 	char	dest[20];
 // 	size_t	srcsize;
-// 	srcsize = ft_strlcpy(((void*)0), ((void*)0), 10);
-// 	// for (int i = 0; i < 12; i++) 
-// 	// {
-//     //     printf("%c", dest[i]);
-// 	// }
+// 	srcsize = ft_strlcpy(dest, src, 20);
+//     printf("%s", dest);
 // 	printf("\n%zu", srcsize);
 // }

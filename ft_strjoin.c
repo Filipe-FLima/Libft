@@ -6,7 +6,7 @@
 /*   By: flima <flima@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/11 20:52:56 by flima             #+#    #+#             */
-/*   Updated: 2024/10/14 14:52:18 by flima            ###   ########.fr       */
+/*   Updated: 2024/10/19 16:16:56 by flima            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,7 +41,7 @@ char	*ft_strjoin(char const *s1, char const *s2)
 }
 // int	main(void)
 // {
-// 	char	*str1 = "Todo ";
+// 	char	*str1 = "Todo todo ne 42 ";
 // 	char	str2[] = "Codam";
 // 	char	*strjoin;
 // 	strjoin = ft_strjoin(str1, str2);

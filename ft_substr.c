@@ -6,7 +6,7 @@
 /*   By: flima <flima@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/11 18:59:06 by flima             #+#    #+#             */
-/*   Updated: 2024/10/14 14:59:10 by flima            ###   ########.fr       */
+/*   Updated: 2024/10/19 17:26:54 by flima            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,7 +44,7 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 // 	char	*buffer;
 // 	size_t	size;
 
-// 	buffer = ft_substr(str, 12, 100);
+// 	buffer = ft_substr(str, 6, 100);
 // 	size = ft_strlen(buffer);
 // 	printf("%s\n", buffer);
 // 	printf("%zu", size);

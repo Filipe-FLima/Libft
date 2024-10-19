@@ -6,7 +6,7 @@
 /*   By: flima <flima@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/12 19:06:44 by flima             #+#    #+#             */
-/*   Updated: 2024/10/17 16:42:59 by flima            ###   ########.fr       */
+/*   Updated: 2024/10/19 16:08:59 by flima            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -94,13 +94,12 @@ char	**ft_split(char const *s, char c)
 // int main()
 // {
 // 	char **array_strs;
-//     // char str[] = "ccccccccccccccctcf";
-//     // char c = 'c';
+//     char str[] = "cccccc1ccccccccc";
+//     char c = 'c';
 // 	unsigned int i;
 
-// 	// printf("%zu\n", ft_countchr(str, c));
 // 	i = 0;
-// 	array_strs = ft_split("hello!", ' ');
+// 	array_strs = ft_split(str, c);
 // 	while (array_strs[i])
 // 	{
 // 		printf("%s\n", array_strs[i]);

@@ -6,7 +6,7 @@
 /*   By: flima <flima@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/10 17:43:47 by flima             #+#    #+#             */
-/*   Updated: 2024/10/14 14:36:00 by flima            ###   ########.fr       */
+/*   Updated: 2024/10/19 15:35:40 by flima            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,7 +40,7 @@ int	ft_atoi(const char *nptr)
 // {
 // 	int	result;
 // 	char	str[] = "      -a1234ab567";
-// 	char	str1[] = "   +123456789";
+// 	char	str1[] = "   +1234q56789";
 // 	result = ft_atoi(str);
 // 	printf ("%d\n", result);
 // 	result = ft_atoi(str1);

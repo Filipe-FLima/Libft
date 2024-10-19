@@ -6,7 +6,7 @@
 /*   By: flima <flima@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/13 17:00:15 by flima             #+#    #+#             */
-/*   Updated: 2024/10/16 18:11:50 by flima            ###   ########.fr       */
+/*   Updated: 2024/10/19 15:38:13 by flima            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -57,9 +57,9 @@ char	*ft_itoa(int n)
 
 // int main(void)
 // {
-// 	// printf("%s\n", ft_itoa(-1));
-//     // printf("%s\n", ft_itoa(2147483647));
-//     // printf("%s\n", ft_itoa(INT_MAX));
+// 	printf("%s\n", ft_itoa(-1));
+//     printf("%s\n", ft_itoa(2147483647));
+//     printf("%s\n", ft_itoa(INT_MAX));
 //     printf("%s\n", ft_itoa(2147483649));
 //     // printf("%s\n", ft_itoa(INT_MIN));
 // 	// printf("%s\n", ft_itoa(0));
